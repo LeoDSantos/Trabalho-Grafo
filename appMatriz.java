@@ -53,9 +53,6 @@ public class AppMatriz {
     }
     class Main{
     public static void main(String[] args) { 
-            
-            Graph graphMatriz;
-            graphMatriz = LoadData.loadAdj("C:/Users/leodm/Downloads/grafos-quarta-main-aula04/aula04/data/data.txt");
             int graph[][] = new int[][] { { 0, 2, 1, 0, 0, 0}, 
                                           { 2, 0, 7, 0, 8, 4}, 
                                           { 1, 7, 0, 7, 0, 3}, 
